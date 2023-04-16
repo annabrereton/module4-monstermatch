@@ -1,2 +1,2 @@
-# website-template
-template for html, css, js websites
+# monster match exercise
+greating a monster card game for two players with javascript
