@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.game-board {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.draw-player {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    border: 0.2rem solid #7c7c7c;
+    border-radius: 0.5rem;
+}
+
+.player-hand {
+    width: 15rem;
+    height: 30rem;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 0.2rem solid #7c7c7c;
+    border-radius: 0.5rem;
+}
+
+.player-hand h3, .player-hand h4 {
+    text-align: center;
+}
+
+.results {
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+button {
+    width: 15rem;
+    height: 8rem;
+    margin: 2rem;
+    background-color: #006dcc;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    align-self: center;
+}
+
+.draw-player.hide {
+    display: none;
+}
+
+.click-to-draw {
+    align-self: center;
+}
