@@ -1,2 +1,2 @@
-# monster match exercise
-greating a monster card game for two players with javascript
+# Monster match exercise
+Creating a monster card game for two players with javascript
